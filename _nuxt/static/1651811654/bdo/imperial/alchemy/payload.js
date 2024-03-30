@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/bdo/imperial/alchemy", {data:[{},{},{}],fetch:{},mutations:void 0});
