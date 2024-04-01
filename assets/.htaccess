@@ -1,0 +1,42 @@
+#RewriteEngine Off
+# GZIP compression
+SetOutputFilter DEFLATE
+
+#BrowserMatch ^Mozilla/4 gzip-only-text/html
+#BrowserMatch ^Mozilla/4\.0[678] no-gzip
+#BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+SetEnvIfNoCase Request_URI \.(eot|ico|gif|jpe?g|php|png|ttf|svg|woff)$ no-gzip dont-vary
+
+# Fonts on a cookieless subdomain
+#<FilesMatch "\.(eot|ttf|svg|woff)$">
+#Header set Access-Control-Allow-Origin "*"
+#</FilesMatch>
+
+
+# Cookieless Static Content
+<FilesMatch "\.(css|eot|ico|gif|jpe?g|js|png|ttf|svg|woff)$">
+Header unset Cookie
+Header unset Set-Cookie
+</FilesMatch>
+
+# Caching
+ExpiresActive On
+ExpiresDefault A0
+
+<FilesMatch "\.(eot|ico|gif|jpe?g|png|ttf|svg|woff)$">
+# 1 mouth caching for images and stuff
+ExpiresDefault A2592000
+Header append Cache-Control "public"
+</FilesMatch>
+
+<FilesMatch "\.(css|js)$">
+# 1 week caching for styles and scripts
+ExpiresDefault A604800
+Header append Cache-Control "public"
+</FilesMatch>
+
+#Other Header Manipulation
+FileETag MTime Size
+Header unset X-Powered-By
+AddDefaultCharset UTF-8
+DefaultLanguage en-US
