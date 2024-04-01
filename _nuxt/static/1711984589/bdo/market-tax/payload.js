@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/bdo/market-tax", {data:[{},{}],fetch:{},mutations:void 0});
