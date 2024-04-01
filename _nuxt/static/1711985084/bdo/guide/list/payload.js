@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/bdo/guide/list", {data:[{},{},{}],fetch:{},mutations:void 0});
