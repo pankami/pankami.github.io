@@ -1,0 +1,133 @@
+[
+		{
+			"id": 1,
+			"title": "warrior",
+			"slug": "class-warrior"
+		},
+
+		{
+			"id": 2,
+			"title": "ranger",
+			"slug": "class-ranger"
+		},
+		{
+			"id": 3,
+			"title": "sorceress",
+			"slug": "class-sorceress"
+		},
+		{
+			"id": 4,
+			"title": "berserker",
+			"slug": "class-berserker"
+		},
+		{
+			"id": 5,
+			"title": "tamer",
+			"slug": "class-tamer"
+		},
+		{
+			"id": 6,
+			"title": "musa",
+			"slug": "class-musa"
+		},
+		{
+			"id": 7,
+			"title": "maehwa",
+			"slug": "class-maehwa"
+		},
+		{
+			"id": 8,
+			"title": "valkyrie",
+			"slug": "class-valkyrie"
+		},
+		{
+			"id": 9,
+			"title": "kunoichi",
+			"slug": "class-kunoichi"
+		},
+		{
+			"id": 10,
+			"title": "ninja",
+			"slug": "class-ninja"
+		},
+		{
+			"id": 11,
+			"title": "wizard",
+			"slug": "class-wizard"
+		},
+		{
+			"id": 12,
+			"title": "witch",
+			"slug": "class-witch"
+		},
+		{
+			"id": 13,
+			"title": "dark knight",
+			"slug": "class-dark-knight"
+		},
+		{
+			"id": 14,
+			"title": "striker",
+			"slug": "class-striker"
+		},
+		{
+			"id": 15,
+			"title": "mystic",
+			"slug": "class-mystic"
+		},
+		{
+			"id": 16,
+			"title": "archer",
+			"slug": "class-archer"
+		},
+		{
+			"id": 17,
+			"title": "lahn",
+			"slug": "class-lahn"
+		},
+		{
+			"id": 18,
+			"title": "shai",
+			"slug": "class-shai"
+		},
+		{
+			"id": 19,
+			"title": "guardian",
+			"slug": "class-guardian"
+		},
+		{
+			"id": 20,
+			"title": "hashashin",
+			"slug": "class-hashashin"
+		},
+		{
+			"id": 21,
+			"title": "nova",
+			"slug": "class-nova"
+		},
+		{
+			"id": 22,
+			"title": "sage",
+			"slug": "class-sage"
+		},
+		{
+			"id": 23,
+			"title": "corsair",
+			"slug": "class-corsair"
+		},
+		{
+			"id": 24,
+			"title": "drakania",
+			"slug": "class-drakania"
+		},
+		{
+			"id": 25,
+			"title": "woosa",
+			"slug": "class-woosa"
+		},
+		{
+			"id": 26,
+			"title": "maegu",
+			"slug": "class-maegu"
+		}
+	]
