@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/bdo/donate", {data:[{},{}],fetch:{},mutations:void 0});
