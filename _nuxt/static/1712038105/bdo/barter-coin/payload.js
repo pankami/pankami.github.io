@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/bdo/barter-coin", {data:[{},{}],fetch:{},mutations:void 0});
