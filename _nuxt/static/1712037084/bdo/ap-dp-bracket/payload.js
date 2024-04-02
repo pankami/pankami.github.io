@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/bdo/ap-dp-bracket", {data:[{},{}],fetch:{},mutations:void 0});
