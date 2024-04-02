@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[31],{369:function(e,n,t){"use strict";t.r(n);var r={middleware:function(e){e.route;return(0,e.redirect)("/bdo")}},c=t(52),component=Object(c.a)(r,(function(){var e=this.$createElement;return(this._self._c||e)("div")}),[],!1,null,null,null);n.default=component.exports}}]);
