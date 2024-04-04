@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/bdo/boss-timer/dreambdo-sea", {data:[{},{},{}],fetch:{},mutations:void 0});
